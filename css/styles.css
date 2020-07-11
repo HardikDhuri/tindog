@@ -10,12 +10,13 @@ font-family: 'Ubuntu', sans-serif;
   background-color: #ff4c68;
 }
 
-h1 {
+.main-heading {
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   font-size: 3.5rem;
   line-height: 1.5;
 }
+
 
 h2 {
   font-family: "Montserrat";
@@ -166,7 +167,7 @@ body {
   text-align: center;
 }
 
-#cta h3 {
+.footer-head {
   color: #fff;
   width:60%;
   margin: 0 auto;
@@ -191,4 +192,16 @@ body {
 .copyright {
   padding-top: 10px;
   color: #8f8f8f;
+}
+
+@media (max-width: 400px) {
+
+  .main-heading {
+    font-size: 2rem;
+  }
+
+  .carousel-item h2, #pricing h2, .footer-head {
+    font-size: 2rem;
+  }
+
 }
